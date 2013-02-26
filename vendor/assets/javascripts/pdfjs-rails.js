@@ -7,4 +7,4 @@
 //= require compatibility.js
 //= require l10n.js
 //= require pdf.js
-//= require pdfjs.pdfviewer.js
+//= require_tree ./viewer
