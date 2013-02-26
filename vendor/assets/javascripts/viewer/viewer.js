@@ -1405,9 +1405,8 @@ window.addEventListener('scalechange', function scalechange(evt) {
       customScaleOption.textContent = Math.round(evt.scale * 10000) / 100 + '%';
       customScaleOption.selected = true;
     }
-    
-    updateViewarea();
   }
+  updateViewarea();
 }, true);
 
 window.addEventListener('pagechange', function pagechange(evt) {
